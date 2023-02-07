@@ -43,7 +43,7 @@ use ::validation::ValidatedType;
 use aurae_client::{
     cells::cell_service::CellServiceClient, AuraeClient, AuraeClientError,
 };
-use aurae_proto::cells::{
+use proto::cells::{
     cell_service_server, Cell, CellGraphNode, CellServiceAllocateRequest,
     CellServiceAllocateResponse, CellServiceFreeRequest,
     CellServiceFreeResponse, CellServiceListRequest, CellServiceListResponse,

@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = { workspace = true }
-aurae-proto = { workspace = true }
+proto = { workspace = true }
 macros = { package = "aurae-client-macros", path = "macros" }
 serde = { workspace = true }
 thiserror = { workspace = true }

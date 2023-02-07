@@ -25,9 +25,9 @@ dependencies = [
  "aer-macros",
  "anyhow",
  "aurae-client",
- "aurae-proto",
  "clap 4.1.4",
  "futures-util",
+ "proto",
  "serde",
  "tokio",
 ]
@@ -133,7 +133,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "aurae-client-macros",
- "aurae-proto",
+ "proto",
  "serde",
  "thiserror",
  "tokio",
@@ -156,22 +156,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "aurae-proto"
-version = "0.1.0"
-dependencies = [
- "pbjson",
- "prost",
- "serde",
- "tonic",
-]
-
-[[package]]
 name = "auraed"
 version = "0.1.0"
 dependencies = [
  "anyhow",
  "aurae-client",
- "aurae-proto",
  "backoff",
  "clap 4.1.4",
  "clone3",
@@ -191,6 +180,7 @@ dependencies = [
  "oci-spec 0.5.8",
  "ocipkg",
  "procfs",
+ "proto",
  "rtnetlink",
  "serde",
  "serde_json",
@@ -218,10 +208,10 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "aurae-client",
- "aurae-proto",
  "auraescript_macros",
  "deno_ast",
  "deno_core",
+ "proto",
  "tokio",
 ]
 
@@ -2258,6 +2248,16 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "proto"
+version = "0.1.0"
+dependencies = [
+ "pbjson",
+ "prost",
+ "serde",
+ "tonic",
 ]
 
 [[package]]

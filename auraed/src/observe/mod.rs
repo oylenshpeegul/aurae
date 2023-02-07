@@ -31,7 +31,7 @@
 // @todo @krisnova remove this once logging is further along
 #![allow(dead_code)]
 
-use aurae_proto::observe::{
+use proto::observe::{
     observe_service_server::ObserveService, GetAuraeDaemonLogStreamRequest,
     GetAuraeDaemonLogStreamResponse, GetSubProcessStreamRequest,
     GetSubProcessStreamResponse, LogItem,

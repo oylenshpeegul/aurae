@@ -68,9 +68,9 @@ use crate::{
     spawn::spawn_auraed_oci_to,
 };
 use anyhow::Context;
-use aurae_proto::cri::runtime_service_server::RuntimeServiceServer;
-use aurae_proto::{
+use proto::{
     cells::cell_service_server::CellServiceServer,
+    cri::runtime_service_server::RuntimeServiceServer,
     discovery::discovery_service_server::DiscoveryServiceServer,
 };
 use clap::{Parser, Subcommand};
