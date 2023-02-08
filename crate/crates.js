@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["aer","aurae_client","auraescript"];
